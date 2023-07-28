@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class PauseMenue : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
-    static PauseMenue instance;
+    static PauseMenu instance;
     public Canvas menue;
     //public Button resume;
     public Button exit;
@@ -58,14 +58,14 @@ public class PauseMenue : MonoBehaviour
 
     void Pause()
     {
-        menue.enabled = (true);
+        menu.enabled = (true);
         Time.timeScale = 0f;
         on = true;
     }
     
     void Resume()
     {
-        menue.enabled = (false);
+        menu.enabled = (false);
         Time.timeScale = 1f;
         on = false;
                
