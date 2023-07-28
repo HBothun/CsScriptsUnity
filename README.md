@@ -1,3 +1,3 @@
 # CsScriptsUnity
 
-These are some scripts I wrote froa unity project
+These are some scripts I wrote for a unity project
